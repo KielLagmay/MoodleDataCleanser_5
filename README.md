@@ -1,6 +1,5 @@
 # MoodleDataCleanser_5
 
-# CSV_DataCleanser
 A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple CSV Files across multiple computers.
 
 ## System Requirements
