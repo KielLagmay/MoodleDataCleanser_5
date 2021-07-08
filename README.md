@@ -1,6 +1,6 @@
 # MoodleDataCleanser_5
 
-A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple CSV Files across multiple computers.
+A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log CSV Files across multiple computers.
 
 ## System Requirements
 - Windows 10 or later (with PowerShell), macOS 10.14 Mojave or later (with ZSH), or Ubuntu 20.04 or later (with BASH)
