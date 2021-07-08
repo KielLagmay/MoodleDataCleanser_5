@@ -23,3 +23,8 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 1) If a Windows PC used for running the DataCleanser_Client Python code has VirtualBox installed, please disable the VirtualBox Host-Only Adapter Ethernet to avoid server connection problems.
 2) If a Mac is used for running the server code, and if the shell script for initializing conda (indicated by "# >>> conda initialize >>> ... # <<< conda initialize <<<") is in your .bash_profile or .bashrc files, please make sure you copy it to .zprofile or .zshrc, respectively.
    
+## Updates
+07/08/2021 16:04 PM
+1) ServerStarter_WINNT.ps1 updated to support PowerShell 6 or higher (including PowerShell 7)
+2) DataWarehouse.ipynb updated to automatically terminate when all Moodle Log CSV Files are processed.
+3) DataCleanser_Server.ipynb updated to print a notice to shut down the Pyro5 nameserver after completion.
