@@ -13,7 +13,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 2) Then, in that same server code, use the openDataWarehouse(dirpath, outfile, dataCleanFunc) function, where dirpath is the directory of the folder containing the CSV file(s) to be processed, outfile is the name of the output CSV file, and dataCleanFunc is a function that takes in a pandas dataframe, processes it, and outputs the resulting pandas dataframe.
 3) Run the DataCleanser_Client Python code on your computer(s).
 4) For the computer running the server code:<br>
-   a) For Windows users: Open the Anaconda Powershell Prompt for your desired environment, and run ServerStarter_WINNT.ps1. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
+   a) For Windows users: Open the Anaconda Powershell Prompt for your desired environment, and run .\ServerStarter_WINNT.ps1. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
    b) For macOS users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_MACOS.sh".<br>
    c) For Ubuntu users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_LINUX.sh".
 5) Run your server code.
