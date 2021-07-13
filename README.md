@@ -4,7 +4,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 
 ## System Requirements
 - Windows 10 or later (with PowerShell), macOS 10.14 Mojave or later (with ZSH), or Ubuntu 20.04 or later (with BASH)
-- Anaconda with Python 3.8 or higher + Pyro5, pandas, import_ipynb, and netifaces
+- Anaconda with Python 3.8 or higher + Pyro5, pandas, import_ipynb, and netifaces (installed in your desired Python virtual environment).
 
 ## How to Use
 1) In your Python server code, import the following:<br>
@@ -28,3 +28,6 @@ July 08, 2021
 1) ServerStarter_WINNT.ps1 updated to support PowerShell 6 or higher (including PowerShell 7)
 2) DataWarehouse.ipynb updated to automatically terminate when all Moodle Log CSV Files are processed.
 3) DataCleanser_Server.ipynb updated to print a notice to shut down the Pyro5 nameserver after completion.
+
+July 13, 2021
+1) DirectoryGenerator.py added and DataWarehouse.ipynb modified to enable cross-platform filepaths (no need to add an extra '\' or '/' at the end of the input to the dirpath parameter of the openDataWarehouse(dirpath, outfile, dataCleanFunc) function anymore).
