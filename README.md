@@ -30,4 +30,4 @@ July 08, 2021
 3) DataCleanser_Server.ipynb updated to print a notice to shut down the Pyro5 nameserver after completion.
 
 July 13, 2021
-1) DirectoryGenerator.py added and DataWarehouse.ipynb modified to enable cross-platform filepaths (no need to add an extra '\\' or '/' at the end of the input to the dirpath parameter of the openDataWarehouse(dirpath, outfile, dataCleanFunc) function anymore).
+1) DirectoryGenerator.py added and DataWarehouse.ipynb modified to enable cross-platform filepaths (no need to append '\\' or '/' to the dirpath parameter input of the openDataWarehouse(dirpath, outfile, dataCleanFunc) function anymore).
