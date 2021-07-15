@@ -43,5 +43,5 @@ July 13, 2021
 1) DirectoryGenerator.py added and DataWarehouse.ipynb modified to enable cross-platform filepaths (no need to append '\\' or '/' to the dirpath parameter input of the openDataWarehouse(dirpath, outfile, dataCleanFunc) function anymore).
 
 July 15, 2021
-1) Revised the System Requirements and Troubleshooting sections indicating that macOS 10.13 High Sierra, BASH on macOS, and Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
-2) Revised the Troubleshooting section indicating that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs.
+1) Revised the System Requirements and Troubleshooting sections to indicate that macOS 10.13 High Sierra, BASH on macOS, and Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
+2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs.
