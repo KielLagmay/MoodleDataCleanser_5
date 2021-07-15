@@ -48,3 +48,4 @@ July 15, 2021
 1) Revised the System Requirements and Troubleshooting sections to indicate that macOS 10.13 High Sierra or later (with BASH) and Anaconda with Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
 2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs.
 3) ServerStarter_WINNT.bat added and revised the System Requirements and How to Use sections to indicate that Windows 8.1 and later (with CMD) are now supported by the MoodleDataCleanser_5 program.
+4) DataCleanser_Server.ipynb modified to print out benchmark evaluations (time taken to process all the files).
