@@ -7,8 +7,8 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 #### Windows
 - Windows 10 or later (with PowerShell)
 #### macOS
-- macOS 10.14 Mojave or later (with ZSH; BASH also supported)
-- macOS 10.13 High Sierra (with BASH)
+- macOS 10.14 Mojave or later (with ZSH)
+- macOS 10.13 High Sierra or later (with BASH)
 #### Ubuntu
 - Ubuntu 20.04 or later (with BASH)
 
