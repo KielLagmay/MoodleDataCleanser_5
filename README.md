@@ -6,6 +6,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 ### Operating Systems
 #### Windows
 - Windows 10 or later (with PowerShell)
+- Windows 8.1 or later (with CMD)
 #### macOS
 - macOS 10.14 Mojave or later (with ZSH)
 - macOS 10.13 High Sierra or later (with BASH)
@@ -22,9 +23,10 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 2) Then, in that same server code, use the openDataWarehouse(dirpath, outfile, dataCleanFunc) function, where dirpath is the directory of the folder containing the CSV file(s) to be processed, outfile is the name of the output CSV file, and dataCleanFunc is a function that takes in a pandas dataframe, processes it, and outputs the resulting pandas dataframe.
 3) Run the DataCleanser_Client Python code on your computer(s).
 4) For the computer running the server code:<br>
-   a) For Windows users: Open the Anaconda Powershell Prompt for your desired environment, and run .\ServerStarter_WINNT.ps1. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
-   b) For macOS users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_MACOS.sh".<br>
-   c) For Ubuntu users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_LINUX.sh".
+   a) For Windows 10 or later users: Open the Anaconda Powershell Prompt for your desired environment, and run .\ServerStarter_WINNT.ps1. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
+   b) For Windows 8.1 or later users: Open the Anaconda CMD Prompt for your desired environment, and run ServerStarter_WINNT.bat. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
+   c) For macOS users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_MACOS.sh".<br>
+   d) For Ubuntu users: Open Terminal, type conda activate &#60;environment&#62;, then sh "&#60;current working directory&#62;/ServerStarter_LINUX.sh".
 5) Run your server code.
 6) Enjoy! :)
 
@@ -43,5 +45,6 @@ July 13, 2021
 1) DirectoryGenerator.py added and DataWarehouse.ipynb modified to enable cross-platform filepaths (no need to append '\\' or '/' to the dirpath parameter input of the openDataWarehouse(dirpath, outfile, dataCleanFunc) function anymore).
 
 July 15, 2021
-1) Revised the System Requirements and Troubleshooting sections to indicate that macOS 10.13 High Sierra, BASH on macOS, and Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
+1) Revised the System Requirements and Troubleshooting sections to indicate that macOS 10.13 High Sierra or later (with BASH) and Anaconda with Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
 2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs.
+3) ServerStarter_WINNT.bat added and revised the System Requirements and How to Use sections to indicate that Windows 8.1 and later (with CMD) are now supported by the MoodleDataCleanser_5 program.
