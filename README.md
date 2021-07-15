@@ -34,7 +34,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 1) If a Windows PC used for running the DataCleanser_Client Python code has VirtualBox installed, please disable the VirtualBox Host-Only Adapter Ethernet to avoid server connection problems.
 2) If a Mac running macOS 10.14 Mojave or later (with ZSH) is used for running the server code, and if the shell script for initializing conda (indicated by "# >>> conda initialize >>> ... # <<< conda initialize <<<") is in your .bash_profile or .bashrc files, please make sure you copy it to .zprofile or .zshrc, respectively.
 3) For Mac users, this program has not yet been tested on Apple Silicon (M1) macs. But please feel free to test it if you have one and even message me if it works!
-4) If running the server code gives you an import error for the "from DataWarehouse import openDataWarehouse" import statement, it may either be because the required dependencies are installed in the default (base) Python virtual environment rather than the Python virtual environment you are using to run the program, or it could also be that your server code is not in the same folder/directory as the DataWarehouse.ipynb file (and its dependencies).
+4) If running the server code gives you an import error for the "from DataWarehouse import openDataWarehouse" import statement, it may either be because the required dependencies are installed in the default (base) Python virtual environment rather than the Python virtual environment you are using to run the program, or it could also be that your server code is not in the same folder/directory as the DataWarehouse.ipynb file (and its dependencies DirectoryGenerator.py).
    
 ## Updates
 July 08, 2021
@@ -47,6 +47,6 @@ July 13, 2021
 
 July 15, 2021
 1) Revised the System Requirements and Troubleshooting sections to indicate that macOS 10.13 High Sierra or later (with BASH) and Anaconda with Python 3.6 or higher are also supported by the MoodleDataCleanser_5 program.
-2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs.
+2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs, and also added a statement on how to deal with errors involving the "from DataWarehouse import openDataWarehouse" import statement.
 3) ServerStarter_WINNT.bat added and revised the System Requirements and How to Use sections to indicate that Windows 8.1 and later (with CMD) are now supported by the MoodleDataCleanser_5 program.
 4) DataCleanser_Server.ipynb modified to print out benchmark evaluations (time taken to process all the files).
