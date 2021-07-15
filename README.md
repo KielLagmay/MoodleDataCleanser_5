@@ -17,7 +17,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 - Anaconda with Python 3.6 or higher + Pyro5, pandas, import_ipynb, netifaces, and dateutil (installed in your desired Python virtual environment).
 
 ## How to Use
-1) In your Python server code, import the following:<br>
+1) In your Python server code (see DataCleanser_Server.ipynb for an example), import the following:<br>
    import import_ipynb<br>
    from DataWarehouse import openDataWarehouse
 2) Then, in that same server code, use the openDataWarehouse(dirpath, outfile, dataCleanFunc) function, where dirpath is the directory of the folder containing the CSV file(s) to be processed, outfile is the name of the output CSV file, and dataCleanFunc is a function that takes in a pandas dataframe, processes it, and outputs the resulting pandas dataframe.
@@ -34,6 +34,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 1) If a Windows PC used for running the DataCleanser_Client Python code has VirtualBox installed, please disable the VirtualBox Host-Only Adapter Ethernet to avoid server connection problems.
 2) If a Mac running macOS 10.14 Mojave or later (with ZSH) is used for running the server code, and if the shell script for initializing conda (indicated by "# >>> conda initialize >>> ... # <<< conda initialize <<<") is in your .bash_profile or .bashrc files, please make sure you copy it to .zprofile or .zshrc, respectively.
 3) For Mac users, this program has not yet been tested on Apple Silicon (M1) macs. But please feel free to test it if you have one and even message me if it works!
+4) If running the server code gives you an import error for the "from DataWarehouse import openDataWarehouse" import statement, it may either be because the required dependencies are installed in the default (base) Python virtual environment rather than the Python virtual environment you are using to run the program, or it could also be that your server code is not in the same folder/directory as the DataWarehouse.ipynb file (and its dependencies).
    
 ## Updates
 July 08, 2021
