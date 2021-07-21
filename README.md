@@ -35,7 +35,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
 2) If a Mac running macOS 10.14 Mojave or later (with ZSH) is used for running the server code, and if the shell script for initializing conda (indicated by "# >>> conda initialize >>> ... # <<< conda initialize <<<") is in your .bash_profile or .bashrc files, please make sure you copy it to .zprofile or .zshrc, respectively.
 3) For Mac users, this program has not yet been tested on Apple Silicon (M1) macs. But please feel free to test it if you have one and even message me if it works!
 4) If running the server code gives you an import error for the "from DataWarehouse import openDataWarehouse" import statement, it may either be because the required dependencies are installed in the default (base) Python virtual environment rather than the Python virtual environment you are using to run the program, or it could also be that your server code is not in the same folder/directory as the DataWarehouse.ipynb file (and its dependencies DirectoryGenerator.py).
-5) If using the built-in CleanseMoodleData.ipynb in your server code, make sure that AS_STUDENT.csv, AS_TEACHERS.csv, and AS_NON-EDITING-TEACHERS.csv are downloaded and stored in the same folder as CleanseMoodleData.ipynb.
+5) If using the built-in CleanMoodleData.ipynb in your server code, make sure that AS_STUDENT.csv, AS_TEACHERS.csv, and AS_NON-EDITING-TEACHERS.csv are downloaded and stored in the same folder as CleanMoodleData.ipynb.
    
 ## Updates
 July 08, 2021
