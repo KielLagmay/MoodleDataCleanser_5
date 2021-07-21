@@ -51,3 +51,7 @@ July 15, 2021
 2) Revised the Troubleshooting section to indicate that the MoodleDataCleanser_5 program has not yet been tested on Apple Silicon (M1) macs, and also added a statement on how to deal with errors involving the "from DataWarehouse import openDataWarehouse" import statement.
 3) ServerStarter_WINNT.bat added and revised the System Requirements and How to Use sections to indicate that Windows 8.1 and later (with CMD) are now supported by the MoodleDataCleanser_5 program.
 4) DataCleanser_Server.ipynb modified to print out benchmark evaluations (time taken to process all the files).
+
+July 21, 2021
+1) Revised Items 4c and 4d in the How to Use section to improve clarity.
+2) Revised Troubleshooting section to indicate the necessary downloads for using the CleanMoodleData.ipynb file.
