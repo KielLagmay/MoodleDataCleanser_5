@@ -21,7 +21,7 @@ A Python/Anaconda/Jupyter Notebook Application for Cleansing multiple Moodle Log
    import import_ipynb<br>
    from DataWarehouse import openDataWarehouse
 2) Then, in that same server code, use the openDataWarehouse(dirpath, outfile, dataCleanFunc) function, where dirpath is the directory of the folder containing the CSV file(s) to be processed, outfile is the name of the output CSV file, and dataCleanFunc is a function that takes in a pandas dataframe, processes it, and outputs the resulting pandas dataframe.
-3) Run the DataCleanser_Client Python code on your computer(s).
+3) Run DataCleanser_Client.ipynb on your computer(s).
 4) For the computer running the server code:<br>
    a) For Windows 10 or later users: Open the Anaconda Powershell Prompt for your desired environment, and run .\ServerStarter_WINNT.ps1. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
    b) For Windows 8.1 or later users: Open the Anaconda CMD Prompt for your desired environment, and run ServerStarter_WINNT.bat. If necessary, change the current working directory using cd "&#60;current working directory&#62;".<br>
@@ -53,5 +53,8 @@ July 15, 2021
 4) DataCleanser_Server.ipynb modified to print out benchmark evaluations (time taken to process all the files).
 
 July 21, 2021
-1) Revised Items 4c and 4d in the How to Use section to improve clarity.
+1) Revised Steps 4c and 4d in the How to Use section to improve clarity.
 2) Revised Troubleshooting section to indicate the necessary downloads for using the CleanMoodleData.ipynb file.
+
+July 22, 2021
+1) Revised Step 3 in the How to Use section to improve clarity.
